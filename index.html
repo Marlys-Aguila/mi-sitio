@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.0/font/bootstrap-icons.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="assets/favicon/logo_vector.svg"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <title>Marlys Águila - Full Stack Javascript Developer</title>
+  </head>
+
+  <body>
+    <!-- Navbar Toggler -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark px-5">
+      <div class="container-fluid">
+        <a href="#" class="navbar-brand"
+          ><img
+            src="assets/img/logo_vector2.svg"
+            alt="Logo"
+            title="Logo"
+            class="logo-width"
+        /></a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <!-- = margin start auto -->
+            <li class="nav-item">
+              <a href="#sobre-mi" class="nav-link fs-5">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a href="#portafolio" class="nav-link fs-5">Portafolio</a>
+            </li>
+            <li class="nav-item">
+              <a href="#experiencia-salud" class="nav-link fs-5">Experiencia</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contacto" class="nav-link fs-5">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Presentación rápida -->
+    <section class="bg-dark text-light pt-5 pb-2 px-5 text-center">
+      <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-between">
+          <div class="text-center">
+            <h1 class="text-warning">Marlys Águila</h1>
+            <p class="fs-5 mt-4">
+              Enfermera titulada de la Pontificia Universidad Católica de Chile
+              con amplia experiencia laboral.
+            </p>
+            <p class="fs-5">
+              Egresada del bootcamp de
+              <span class="text-primary fw-bold"
+                >Desarrollo Full Stack Javascript</span
+              >
+              en la Academia Desafío Latam.
+            </p>
+          </div>
+
+          <img
+            class="img-fluid w-50 d-none d-sm-block"
+            src="assets/img/showcase.svg"
+            alt="Showcase"
+            title="Mujeres en Informática"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Sobre mí: Presentación más a fondo -->
+    <section id="sobre-mi" class="bg-dark text-light p-5">
+      <div class="container pt-5">
+        <div class="d-sm-flex align-items-center justify-content-between">
+          <div class="p-4 w-100">
+            <img
+              class="img-fluid d-sm-block d-none rounded-circle border border-1"
+              src="assets/img/marlys.jpg"
+              alt="Marlys en el borde costero de Cochamó"
+              title="Marlys"
+            />
+          </div>
+
+          <div class="text-center pt-1">
+            <h2 class="text-warning p-2">Sobre mí</h2>
+            <span class="lead">
+              <p>
+                ¡Hola! 👋😊 Soy
+                <span class="text-primary fw-bold">Marlys</span> y me alegra que
+                hayas visitado mi página web.
+              </p>
+              <p>
+                Soy enfermera con ocho años de experiencia laboral que hace más
+                de un año comencé a estudiar formalmente
+                <span class="text-primary fw-bold"
+                  >Desarrollo Full Stack JavaScript</span
+                >
+                a través de un bootcamp en la Academia Desafío Latam.
+                Actualmente estoy en búsqueda de mi primera experiencia laboral
+                dentro de este rubro.
+              </p>
+              <p>
+                Durante el tiempo que he estado en esta formación intensiva, he
+                adquirido experiencia con herramientas como
+                <span class="text-primary fw-bold"
+                  >HTML5, CSS3, Bootstrap, Git, Github, JavaScript, React JS,
+                  PostgreSQL, Node y Express</span
+                >. En cuanto a habilidades blandas, mi carrera como enfermera
+                clínica me ha permitido adquirir importantes competencias que
+                incluyen la resolución de problemas, atención al detalle,
+                adaptabilidad al cambio y trabajo en equipo.
+              </p>
+              <p>
+                Si estás interesada/o en conversar oportunidades laborales o
+                simplemente quieres saber más acerca de mi experiencia y
+                habilidades,
+                <span class="text-primary fw-bold">no dudes</span> en
+                contactarte conmigo.
+              </p>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portafolio-->
+    <section id="portafolio" class="bg-dark p-5">
+      <div class="container pt-5">
+        <h2 class="text-center text-warning mb-4">Portafolio</h2>
+        <div
+          id="carouselExampleCaptions"
+          class="carousel slide custom-carousel carousel-fade"
+          data-bs-ride="carousel"
+          data-bs-interval="3000"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <!-- Primera imagen: Restaurante -->
+            <div class="carousel-item active">
+              <!-- <img src="assets/img/restaurante.png" class="d-block" alt="..." /> -->
+              <a
+                href="https://github.com/Marlys-Aguila/restaurante-front.git"
+                target="_blank"
+              >
+                <img
+                  src="assets/img/restaurante.png"
+                  class="d-block"
+                  alt="..."
+                />
+              </a>
+              <div class="carousel-caption d-none d-md-block">
+                <section class="mb-3">
+                  <a
+                    href="https://restaurante-fogon-memorias.netlify.app/"
+                    target="_blank"
+                    class="btn btn-warning btn-lg"
+                    >Ir al sitio web</a
+                  >
+                  <a
+                    href="https://github.com/Marlys-Aguila/restaurante-front.git"
+                    target="_blank"
+                    class="btn btn-warning btn-lg"
+                    >Ver el código en Github</a
+                  >
+                </section>
+              </div>
+            </div>
+            <!-- Segunda imagen: Pizzería -->
+            <div class="carousel-item">
+              <a
+                href="https://github.com/Marlys-Aguila/prueba-pizzeria-mamma-mia.git"
+                target="_blank"
+              >
+                <img
+                  src="assets/img/pizzeria-mamma-mia.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </a>
+              <div class="carousel-caption d-none d-md-block">
+                <section class="mb-3">
+                  <a
+                    href="https://pizzeria-mamma-mia-marlys.netlify.app/"
+                    target="_blank"
+                    class="btn btn-warning btn-lg"
+                    >Ir al sitio web</a
+                  >
+                  <a
+                    href="https://github.com/Marlys-Aguila/prueba-pizzeria-mamma-mia.git"
+                    target="_blank"
+                    class="btn btn-warning btn-lg"
+                    >Ver el código en Github</a
+                  >
+                </section>
+              </div>
+            </div>
+            <!-- Tercera imagen: Pokemon -->
+            <div class="carousel-item">
+              <a href="https://github.com/Marlys-Aguila/desafio-pokeapp.git" target="_blank">
+                <img
+                  src="assets/img/pokemon.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </a>
+              <div class="carousel-caption d-none d-md-block">
+                <section class="mb-3">
+                  <a
+                    href="https://pokemon-marlys.netlify.app/"
+                    target="_blank"
+                    class="btn btn-warning btn-lg"
+                    >Ir al sitio web</a
+                  >
+                  <a
+                    href="https://github.com/Marlys-Aguila/desafio-pokeapp.git"
+                    target="_blank"
+                    class="btn btn-warning btn-lg"
+                    >Ver el código en Github</a
+                  >
+                </section>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experiencia laboral en Salud -->
+    <section id="experiencia-salud" class="bg-dark p-5">
+      <div class="container container-width pt-5">
+        <h2 class="text-center text-warning mb-4">
+          Experiencia laboral en Salud <i class="bi bi-heart-pulse h4"></i>
+        </h2>
+
+        <div class="accordion">
+          <!-- Item 1 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#acordion-uno"
+              >
+                Red Salud UC Christus (sede Puerto Montt)
+              </button>
+            </h2>
+            <div
+              id="acordion-uno"
+              class="accordion-collapse collapse"
+              data-bs-parent="#experiencia-acordion"
+            >
+              <div class="accordion-body">
+                2021 - 2022 / Unidad Toma de Muestras / Enfermera Clínica
+              </div>
+            </div>
+          </div>
+          <!-- Item 2 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#acordion-dos"
+              >
+                Hospital Base Puerto Montt
+              </button>
+            </h2>
+            <div
+              id="acordion-dos"
+              class="accordion-collapse collapse"
+              data-bs-parent="#experiencia-acordion"
+            >
+              <div class="accordion-body">
+                2020 - 2021 / Grupo Relacionador del Diagnóstico (GRD) /
+                Enfermera Codificadora
+              </div>
+            </div>
+          </div>
+          <!-- Item 3 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#acordion-tres"
+              >
+                Hospital del Trabajador (ACHS)
+              </button>
+            </h2>
+            <div
+              id="acordion-tres"
+              class="accordion-collapse collapse"
+              data-bs-parent="#experiencia-acordion"
+            >
+              <div class="accordion-body">
+                2019 / Hospitalización / Enfermera Clínica
+              </div>
+            </div>
+          </div>
+          <!-- Item 4 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#acordion-cuatro"
+              >
+                Clínica RedSalud Santiago (ex Bicentenario)
+              </button>
+            </h2>
+            <div
+              id="acordion-cuatro"
+              class="accordion-collapse collapse"
+              data-bs-parent="#experiencia-acordion"
+            >
+              <div class="accordion-body">
+                2013 - 2017 / Médico-quirúrgico y Teletón / Enfermera Clínica
+              </div>
+            </div>
+          </div>
+          <!-- Item 5 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#acordion-cinco"
+              >
+                Centro Médico y Dental RedSalud Arauco (ex Arauco Salud)
+              </button>
+            </h2>
+            <div
+              id="acordion-cinco"
+              class="accordion-collapse collapse"
+              data-bs-parent="#experiencia-acordion"
+            >
+              <div class="accordion-body">
+                2013 - Hospitalización - Enfermera Clínica
+              </div>
+            </div>
+          </div>
+          <!-- Item 6 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#acordion-seis"
+              >
+                Clínica Santa María
+              </button>
+            </h2>
+            <div
+              id="acordion-seis"
+              class="accordion-collapse collapse"
+              data-bs-parent="#experiencia-acordion"
+            >
+              <div class="accordion-body">
+                2012 - 2013 / Médico-Quirúrgico / Enfermera Clínica
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Accordion items end -->
+      </div>
+    </section>
+
+    <!-- Formulario de Contacto -->
+    <section id="contacto" class="bg-dark text-light p-5 text-center">
+      <div class="container pt-5">
+        <div class="d-sm-flex align-items-center justify-content-between">
+          <div>
+            <h2 class="text-warning text-center p-2">Contacto</h2>
+            <p class="fs-5">
+              <span class="fw-bold"
+                ><i class="bi bi-envelope text-primary me-1"></i> Correo:</span
+              >
+              marlys.a.ulloa@gmail.com
+            </p>
+            <hr />
+            <p class="fs-5">
+              <span class="fw-bold"
+                ><i class="bi bi-phone text-primary me-1"></i> Celular:</span
+              >
+              +56 9 8139 3128
+            </p>
+            <hr />
+
+            <div class="d-flex justify-content-center">
+              <a
+                href="https://www.linkedin.com/in/mvau/"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="LinkedIn Marlys"
+                ><i class="bi bi-linkedin text-light fs-1 mx-1"></i
+              ></a>
+              <a
+                href="https://github.com/Marlys-Aguila"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Github Marlys"
+                ><i class="bi bi-github text-light fs-1 ms-2"></i
+              ></a>
+            </div>
+
+            <div class="d-flex flex-column text-center">
+              <p class="lead fw-bold text-warning text-center mt-4">
+                ¿Deseas una versión imprimible de mi curriculum?
+              </p>
+              <div
+                class="d-flex justify-content-center align-items-center flex-wrap"
+              >
+                <span class="lead me-2"> Descárgalo aquí:</span>
+                <div class="btn-group">
+                  <a
+                    href="https://drive.google.com/file/d/1WGF3JAqL-bRT_RwHCZv1R8JWsFq1GgF1/view?usp=drive_link"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >Español</a
+                  >
+                  <a
+                    href="https://drive.google.com/file/d/18HUWkmDU7yrF8XR-JEDDD18Cn-fEM6Y_/view?usp=drive_link"
+                    target="_blank"
+                    class="btn btn-primary ms-2"
+                    >English</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-5 container-width">
+            <img
+              class="img-fluid d-none d-sm-block"
+              src="assets/img/fundamentals.svg"
+              alt="Fundamentos de Programacion"
+              title="Fundamentos de Programación"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="p-5 bg-dark text-white text-center position-relative">
+      <div class="container">
+        <p class="lead pe-4 mb-0">Copyright &copy; 2023 Marlys Águila</p>
+        <a href="#" class="position-absolute bottom-0 end-0 p-5">
+          <i class="bi bi-arrow-up-circle h1"></i>
+        </a>
+      </div>
+    </footer>
+
+    <!-- Bootstrap 5 Script -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

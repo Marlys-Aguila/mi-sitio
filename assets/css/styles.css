@@ -1,0 +1,55 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  padding-top: 5rem;
+  scroll-behavior: smooth;
+}
+
+.logo-width {
+  width: 4rem;
+}
+
+.container-width {
+  min-width: 18rem;
+  max-width: 60%;
+}
+
+.margin-top-button-card {
+  margin-top: 8px;
+}
+
+.card {
+  /*Animación de tarjeta*/
+  transition: transform 0.4s;
+  -webkit-transition: transform 0.4s;
+  -moz-transition: transform 0.4s;
+  -ms-transition: transform 0.4s;
+  -o-transition: transform 0.4s;
+}
+
+/*Animación de tarjeta*/
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+}
+
+.card-text-height {
+  height: 4rem;
+}
+
+/* MQ Carrusel */
+@media (min-width: 800px) {
+  .custom-carousel {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 1300px) {
+  .custom-carousel {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
