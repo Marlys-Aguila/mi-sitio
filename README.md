@@ -1,6 +1,6 @@
 ## Bienvenido al repositorio de mi sitio web 
 
-#### Para ir a la página ➡️ https://marlys-aguila.github.io/portafolio
+#### Para ir a la página ➡️ https://marlys-aguila.github.io/mi-sitio/
 
 Tecnologías utilizadas:
 - HTML5
