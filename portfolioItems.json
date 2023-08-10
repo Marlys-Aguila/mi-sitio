@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Restaurante",
+    "githubLink": "https://github.com/Marlys-Aguila/restaurante-front.git",
+    "websiteLink": "https://restaurante-fogon-memorias.netlify.app/",
+    "imgSrc": "assets/img/restaurante.png",
+    "alt": "App Restaurante Fogón de Memorias"
+  },
+  {
+    "name": "Pizzería",
+    "githubLink": "https://github.com/Marlys-Aguila/prueba-pizzeria-mamma-mia.git",
+    "websiteLink": "https://pizzeria-mamma-mia-marlys.netlify.app/",
+    "imgSrc": "assets/img/pizzeria-mamma-mia.png",
+    "alt": "App Pizzería Mamma Mia"
+  },
+  {
+    "name": "Pokemon",
+    "githubLink": "https://github.com/Marlys-Aguila/desafio-pokeapp.git",
+    "websiteLink": "https://pokemon-marlys.netlify.app/",
+    "imgSrc": "assets/img/pokemon.png",
+    "alt": "App Pokemon"
+  },
+  {
+    "name": "Juego El Colgado",
+    "githubLink": "https://github.com/Marlys-Aguila/juego-colgado-react-ts.git",
+    "websiteLink": "https://juego-colgado-react-ts.netlify.app/",
+    "imgSrc": "assets/img/colgado-ganador.png",
+    "alt": "App Ahorcado"
+  },
+  {
+    "name": "eCommerce TechBookStore",
+    "githubLink": "https://github.com/Marlys-Aguila/techbookstore_react_ts.git",
+    "websiteLink": "https://techbookstore-react-ts.netlify.app/",
+    "imgSrc": "assets/img/techbookstore.png",
+    "alt": "TechBookStore"
+  }
+]
